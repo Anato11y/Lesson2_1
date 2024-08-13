@@ -35,6 +35,9 @@ add_task_button.pack(pady=5)
 mark_button = tk.Button(root, text="Отметить выполненную задачу", command=mark_task)
 mark_button.pack(pady=5)
 
+mark_button1 = tk.Button(root, text="Отметить провереенную задачу", command=mark_task1)
+mark_button1.pack(pady=5)
+
 delete_button = tk.Button(root, text="Удалить задачу", command=delete_task)
 delete_button.pack(pady=5)
 
